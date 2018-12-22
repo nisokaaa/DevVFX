@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Flame
-  m_Shader: {fileID: 4800000, guid: c406ef2033fd6294c8a9fcb3440b672b, type: 3}
+  m_Name: FlameTail
+  m_Shader: {fileID: 4800000, guid: 49c5a8700962e444f99d4d6ee8c98eab, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -18,8 +18,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_CA565329:
+        m_Texture: {fileID: 2800000, guid: 17f4b1e1b41f4424b83f0b2f5f9e44ea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_F2A52767:
-        m_Texture: {fileID: 2800000, guid: ad3ab81deb42a4140aaf7b8b016520f8, type: 3}
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -64,8 +68,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_34D0BED9: 1.45
+    - Vector1_4A632505: 3.5
     - Vector1_61A9BD0: 6.7
+    - Vector1_7862EF20: 5
+    - Vector1_91B1A6E3: 0.15
     - Vector1_B40C266C: 3.5
+    - Vector1_CA88F3EB: 0.5
     - Vector1_E04816A0: 0.12
     - _AlphaClip: 0
     - _Blend: 0
@@ -88,8 +96,11 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Color_9639ECF9: {r: 4.332708, g: 4.332708, b: 4.332708, a: 0}
     - Color_A241A8FE: {r: 6.507058, g: 3.4915535, b: 2.1792507, a: 0.50980395}
+    - Vector2_1B8CD37A: {r: -2.5, g: -3.5, b: 0, a: 0}
     - Vector2_9E551E23: {r: -1.71, g: -1.49, b: 0, a: 0}
+    - Vector2_B1636EBC: {r: 0, g: -2.5, b: 0, a: 0}
     - Vector2_C447C585: {r: 0.12, g: -2, b: -0.03, a: 0}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
